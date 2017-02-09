@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "semi"          : ["error", "never"],
+    "comma-dangle"  : ["error", "always-multiline"],
+    "complexity"    : ["warn",  2]
+  },
+  "plugins": [
+    "react"
+  ]
+}
