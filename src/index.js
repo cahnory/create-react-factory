@@ -5,7 +5,7 @@ type propTypes = {
   component: any,
 }
 
-export const createFactory = (Higher: any) => (Lower: any) => {
+export const createReactFactory = (Higher: any) => (Lower: any) => {
   const Factory = ({component, ...props}: propTypes) => {
     const FactoryComponent = (props) => <Lower component={component} {...props} />
     return <Higher {...props} component={FactoryComponent} />
@@ -13,4 +13,4 @@ export const createFactory = (Higher: any) => (Lower: any) => {
   return Factory
 }
 
-export default createFactory
+export default createReactFactory
