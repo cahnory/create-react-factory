@@ -6,5 +6,21 @@
   ],
   "plugins": [
     "transform-flow-strip-types"
-  ]
+  ],
+  "env": {
+    "development": {
+      "ignore": [
+        "__tests__",
+        "**/*.test.js",
+        "**/*.spec.js"
+      ]
+    },
+    "production": {
+      "ignore": [
+        "__tests__",
+        "**/*.test.js",
+        "**/*.spec.js"
+      ]
+    }
+  }
 }
