@@ -1,6 +1,6 @@
 {
   "name": "create-react-factory",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "React component factory factory",
   "main": "dist/index.js",
   "scripts": {
@@ -16,6 +16,14 @@
     "email": "cahnory@gmail.com"
   },
   "license": "MIT",
+  "homepage": "https://github.com/cahnory/create-react-factory",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cahnory/create-react-factory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cahnory/create-react-factory/issues"
+  },
   "devDependencies": {
     "babel-cli": "^6.22.2",
     "babel-core": "^6.22.1",
